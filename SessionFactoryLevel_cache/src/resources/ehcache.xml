@@ -1,0 +1,12 @@
+<ehcache>
+	<defaultCache 
+	
+			maxElementsInMemory="10000"
+			timeToLiveSeconds="60"
+			eternal="false"     
+			overflowToDisk="false">
+	</defaultCache>
+	
+	
+	<!-- eternal="false" -it will not write to disc -->
+</ehcache>

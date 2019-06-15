@@ -1,0 +1,18 @@
+package beans;
+
+import java.io.Serializable;
+import java.sql.Connection;
+
+import org.hibernate.engine.spi.SessionImplementor;
+import org.hibernate.id.IdentityGenerator;
+
+public class CustomPKGenerator extends IdentityGenerator {
+	@Override
+	public Serializable generate(SessionImplementor s, Object obj) {
+		String name ="ICICI";
+		
+		Connection con = s.connection();
+		Statement st = con.createStatement();
+		return super.generate(s, obj);
+	}
+}

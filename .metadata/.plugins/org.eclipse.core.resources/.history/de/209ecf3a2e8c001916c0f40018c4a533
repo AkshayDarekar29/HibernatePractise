@@ -1,0 +1,7 @@
+package beans;
+
+public class Movies {
+	int mid;
+	String mName;
+	int aid;
+}

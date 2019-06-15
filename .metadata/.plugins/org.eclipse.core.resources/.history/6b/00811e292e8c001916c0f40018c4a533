@@ -1,0 +1,10 @@
+package beans;
+
+import java.util.List;
+import java.util.Set;
+
+public class Actor {
+	int aid;
+	String name;
+	Set<Movies> movies;
+}

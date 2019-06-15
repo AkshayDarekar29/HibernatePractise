@@ -1,0 +1,37 @@
+package beans;
+import java.util.Set;
+
+public class Actor {
+	int aid;
+	String name;
+	Set<Movies> movies;
+	
+	
+	public Actor(int aid, String name, Set<Movies> movies) {
+		super();
+		this.aid = aid;
+		this.name = name;
+		this.movies = movies;
+	}
+	
+	public int getAid() {
+		return aid;
+	}
+	public void setAid(int aid) {
+		this.aid = aid;
+	}
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	public Set<Movies> getMovies() {
+		return movies;
+	}
+	public void setMovies(Set<Movies> movies) {
+		this.movies = movies;
+	}
+	
+	
+}

@@ -1,0 +1,59 @@
+package beans;
+
+import java.util.HashSet;
+import java.util.Set;
+
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.hibernate.Transaction;
+import org.hibernate.cfg.Configuration;
+
+public class Test {
+	public static void main(String[] args) {
+		Configuration cfg = new Configuration();
+		cfg.configure("resources/configuration.xml");
+		SessionFactory sf = cfg.buildSessionFactory();
+		Session s= sf.openSession();
+		Transaction t = s.beginTransaction();
+		
+		Faculty f1 = new Faculty();
+		Faculty f2 = new Faculty();
+		Faculty f3 = new Faculty();
+		f1.setfId(1);
+		f1.setfName("durga");
+		f1.setExp(50);
+		
+		f2.setfId(2);
+		f2.setfName("babu");
+		f2.setExp(30);
+		
+		f1.setfId(3);
+		f1.setfName("narayan");
+		f1.setExp(35);
+		
+		Set<Faculty> f1Set = new HashSet<>();
+		f1Set.add(f1);
+		f1Set.add(f2);
+		Set<Faculty> f2Set = new HashSet<>();
+		f2Set.add(f3);
+		f2Set.add(f2);
+		Course c1 = new Course();
+		Course c2 = new Course();
+		
+		c1.setcId(11);
+		c1.setcName("Java");
+		c1.setFee(5000);
+		c1.setFaculty(f1Set);
+		
+		c1.setcId(12);
+		c1.setcName("Spring");
+		c1.setFee(10000);
+		c1.setFaculty(f1Set);
+		
+		
+		
+		s.save(m1);		
+		s.save(m2);		
+		t.commit();
+	}
+}

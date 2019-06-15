@@ -1,0 +1,9 @@
+<ehcache>
+	<defaultt-cache 
+	
+			maxElementsInMemory="10000"
+			timeToLiveSeconds="60"
+			iternal="false"
+			overflowToDisk="false">
+	</defaultt-cache>
+</ehcache>

@@ -1,0 +1,7 @@
+package beans;
+
+import org.hibernate.id.IdentityGenerator;
+
+public class CustomPKGenerator extends IdentityGenerator {
+
+}

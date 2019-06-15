@@ -1,0 +1,19 @@
+<!DOCTYPE hibernate-mapping PUBLIC 
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+	<class name="beans.Employee" table="Employee007">
+		<id name="id"></id>
+		<property name="name"></property>
+		<property name="salary"></property>
+		<subclass name="beans.SEmployee" discriminator-value="Software">
+			<property name="tool"></property>
+		</subclass>
+		<subclass name="beans.HEmployee" discriminator-value="hardware">
+			<property name="wh"></property>
+		</subclass>
+		<subclass name="beans.Admin" discriminator-value="Admin">
+			<property name="branchName"></property>
+		</subclass>
+	</class>
+</hibernate-mapping>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="ORM_IS_A_Table_per_Class">
+        <wb-resource deploy-path="/" source-path="/WebContent"/>
+        <property name="context-root" value="ORM_IS_A_Table_per_Class"/>
+        <property name="java-output-path" value="/ORM_IS_A_Table_per_Class/build/classes"/>
+    </wb-module>
+</project-modules>

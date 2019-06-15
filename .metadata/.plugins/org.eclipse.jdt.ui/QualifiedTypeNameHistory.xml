@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="org.hibernate.cfg.Configuration"/>
+<fullyQualifiedTypeName name="org.hibernate.SessionFactory"/>
+<fullyQualifiedTypeName name="org.hibernate.Session"/>
+<fullyQualifiedTypeName name="org.hibernate.Query"/>
+<fullyQualifiedTypeName name="beans.Student"/>
+<fullyQualifiedTypeName name="com.sun.java_cup.internal.runtime.Scanner"/>
+<fullyQualifiedTypeName name="java.util.Scanner"/>
+<fullyQualifiedTypeName name="org.hibernate.Criteria"/>
+</qualifiedTypeNameHistroy>

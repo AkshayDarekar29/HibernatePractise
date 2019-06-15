@@ -1,0 +1,17 @@
+<!DOCTYPE hibernate-mapping PUBLIC 
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+	<class name="beans.Student" table="Student">
+		<!-- <composite-id>
+			<key-property name="id" column="sid"></key-property>
+			<key-property name="name" column="sname"></key-property>
+		</composite-id> -->
+		<id name="id" column="sid">
+			<generator class="sequence"></generator>
+		</id> 
+		<property name="name" column="sname"/>
+		<property name="email" column="semail"/>
+		<property name="marks" column="smarks"/>
+	</class>
+</hibernate-mapping>

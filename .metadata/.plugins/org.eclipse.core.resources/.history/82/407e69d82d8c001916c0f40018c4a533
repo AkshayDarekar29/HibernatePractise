@@ -1,0 +1,7 @@
+package beans;
+
+public class Actor {
+	int aid;
+	String name;
+	List<Movies> movies;
+}

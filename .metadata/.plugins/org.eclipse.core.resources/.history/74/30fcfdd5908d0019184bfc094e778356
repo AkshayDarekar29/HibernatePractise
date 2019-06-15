@@ -1,0 +1,10 @@
+package beans;
+
+import java.util.Set;
+
+public class Factulty {
+	int fId;
+	String fName;
+	int exp;
+	Set<Course> course;
+}

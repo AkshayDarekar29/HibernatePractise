@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;Test.java&apos; to &apos;Pagination_HQL_and_Criteria/src/beans&apos;&#x0D;&#x0A;- Original project: &apos;Pagination_HQL_and_Criteria&apos;&#x0D;&#x0A;- Destination element: &apos;Pagination_HQL_and_Criteria/src/beans&apos;&#x0D;&#x0A;- Original element: &apos;beans.Test.java&apos;" description="Copy compilation unit" destination="/src&lt;beans" element1="/src&lt;beans{Test.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1560219981492" units="1" version="1.0"/>
+</session>

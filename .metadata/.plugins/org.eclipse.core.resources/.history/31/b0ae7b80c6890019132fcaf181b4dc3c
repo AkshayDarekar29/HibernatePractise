@@ -1,0 +1,9 @@
+<hibernate-mapping>
+	<class name="beans.Student" table="StudentTable">
+		<id name="id" column="sid" />
+		<property name="name" column="sname"/>
+		<property name="email" column="semail"/>
+		<property name="marks" column="smarks"/>
+		
+	</class>
+</hibernate-mapping>

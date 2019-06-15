@@ -1,0 +1,19 @@
+package beans;
+
+public class HEmployee extends Employee {
+	int wh;
+	
+	public SEmployee(int id, String name, int salary, int wh) {
+		super(id, name, salary);
+		this.wh = wh;
+	}
+	
+	public String getWh() {
+		return tool;
+	}
+
+	public void setWh(int wh) {
+		this.tool = tool;
+	}
+
+}

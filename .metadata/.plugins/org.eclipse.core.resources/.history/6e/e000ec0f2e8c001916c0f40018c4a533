@@ -1,0 +1,9 @@
+package beans;
+
+import java.util.List;
+
+public class Actor {
+	int aid;
+	String name;
+	List<Movies> movies;
+}

@@ -1,0 +1,13 @@
+<!DOCTYPE hibernate-mapping PUBLIC 
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+	<class name="beans.Movies" table="Movies008">
+		<id name="fId"/>
+		<property name="fName"/>
+		<property name="exp"/>
+		<set name="faculty" table="facultyCourses">
+			<key column="fid"></key>
+		</set>
+	</class>
+</hibernate-mapping>
