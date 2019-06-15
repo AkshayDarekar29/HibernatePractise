@@ -12,4 +12,5 @@
 		<property name="email" column="semail"/>
 		<property name="marks" column="smarks"/>
 	</class>
+	
 </hibernate-mapping>
