@@ -11,4 +11,4 @@
 			<many-to-many class="beans.Course" column="cId"></many-to-many>
 		</set>
 	</class>
-</hibernate-mapping>
+</hibernate-mapping> 

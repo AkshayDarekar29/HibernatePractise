@@ -8,7 +8,7 @@
 		<property name="exp"/>
 		<set name="course" table="facultyCourses">
 			<key column="fId"></key>
-			<many-to-many class="beans.Course" column="cId"></many-to-many>
+			<many-to-many class="beans.Course"></many-to-many>
 		</set>
 	</class>
 </hibernate-mapping> 
